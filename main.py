@@ -4,10 +4,10 @@ import time
 import random
 import os
 
-path = 'C:\\Users\\Robert\\PycharmProjects\\autopost\\test2\\'
+path = 'C:\\Users\\Robert\\PycharmProjects\\autopost\\test\\'
 
 # dir_capt = caption
-r = (random.randint(90, 200))
+r = (random.randint(185, 300))
 
 
 class InstaBot:
@@ -22,7 +22,7 @@ class InstaBot:
             print('take' + path + f'{i}')
             # print(f'take C:\\Users\\Robert\\PycharmProjects\\autopost\\test2\\{i}')
             # CAPTION = f'Название фильма ищите в телеграм канале\n\n\n\n\nКод фильма:{i}'.strip()
-            CAPTION = 'Название фильма ищите в телеграм канале\n' + '.\n' + '.\n' + '.\n' + '.\n' + '.\n' + '.\n' + '.\n' + '.\n' + f'Код фильма:{i}'.replace(
+            CAPTION = 'Название фильма ищите в телеграм канале в шапке профиля\n' + '.\n' + '.\n' + '.\n' + '.\n' + '.\n' + '.\n' + '.\n' + '.\n' + f'Код фильма:{i}'.replace(
                 '.mp4', '')
             print(f'Описание фильма которое публикуется:\nНазвание фильма ищите в телеграм канале\n Код фильма:{i}')
             print(f'secondprint_{i}')
